@@ -1,0 +1,141 @@
+/*  SETTING GLOBALE PAGINA  */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*  /SETTING GLOBALE PAGINA  */
+
+/*  CLASSI DI UTILITY  */
+.justify {
+    justify-content: center;
+}
+
+.align {
+    align-items: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+/*  /CLASSI DI UTILITY  */
+
+/*  STYLING CORPO PRINCIPALE  */
+.container {
+    width: 100%;
+    height: 800px;
+}
+
+.calculator {
+    background-color: rgb(205, 205, 212);
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    border-radius: 10px;
+}
+
+.brand, .buttons-section, .columns-buttons {
+    font-family: "Saira Semi Condensed", sans-serif;
+}
+/*  /STYLING CORPO PRINCIPALE  */
+
+/*  STYLING CORPO BRAND  */
+.name {
+    background-color: rgb(205, 205, 212);
+    width: 100%;
+    height: 20%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.brand {
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+}
+/*  /STYLING CORPO BRAND  */
+
+/*  STYLING CORPO SCHERMO  */
+.screen {
+    background-color: black;
+    width: 100%;
+    height: 20%;
+    font-family: 'Seven Segment', sans-serif;
+    color: rgb(0, 255, 0);
+    justify-content: end;
+    padding-right: 20px;
+    font-size: 40px;
+}
+/*  /STYLING CORPO SCHERMO  */
+
+/*  STYLING SEZIONE BOTTONI  */
+.button {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(165, 165, 165);
+    margin: 5px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+}
+
+.button-n {
+    flex-basis: 25%;
+}
+
+.button-0 {
+    flex-basis: 59%;
+}
+
+.button-f {
+    flex-basis: 25%;
+}
+
+.buttons-section {
+    width: 75%;
+    margin-top: 30px;
+}
+
+button {
+    border-color: grey;
+    border-style: none none solid solid;
+    border-radius: 5px;
+}
+
+/*  /STYLING SEZIONE BOTTONI  */
+
+/*  STYLING SEZIONE OPERATORI  */
+.column-buttons {
+    width: 25%;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 30px;
+}
+
+.operator {
+    width: 40px;
+    height: 35px;
+    background-color: rgb(99, 180, 133);
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+.orange {
+    background-color: orange;
+    color: white;
+}
+/*  /STYLING SEZIONE OPERATORI  */
+
+
+
+
