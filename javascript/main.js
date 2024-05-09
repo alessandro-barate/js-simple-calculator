@@ -1,10 +1,7 @@
 "use strict";
 
-const number1 = document.getElementById("number-1");
+const button = document.getElementsByClassName("button");
 
-number1.addEventListener("click", function () {
-  const value1 = 1;
-  console.log(value1);
-});
-
-function numberClicked() {}
+console.log(button[1].value);
+console.log(button[4]);
+console.log(button[1]);
