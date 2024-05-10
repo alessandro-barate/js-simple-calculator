@@ -1,13 +1,14 @@
 "use strict";
 
-const numbers = document.querySelectorAll("button");
+const buttons = document.querySelectorAll("button");
 
-for (let i = 0; i < numbers.length; i++) {
-  numbers[i].addEventListener("click", function () {
-    let data = numbers[i].dataset.number;
-    console.log(data);
-    let displayId = document.getElementById("result").innerText;
-    displayId = data;
-    console.log(data);
+for (let i = 0; i < buttons.length; i++) {
+  buttons[i].addEventListener("click", function () {
+    let data;
+    if ((data = buttons[i].dataset.number)) {
+      document.getElementById("result").innerText = data;
+    } else if ((data = buttons[i].dataset.operator)) {
+      document.getElementById("result").innerText = data;
+    }
   });
 }
