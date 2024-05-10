@@ -1,7 +1,9 @@
 "use strict";
 
-const button = document.getElementsByClassName("button");
+let numbers = document.querySelector(".buttons");
+//let dataNumber = numbers.dataset.number;
 
-console.log(button[1].value);
-console.log(button[4]);
-console.log(button[1]);
+numbers.addEventListener("click", function () {
+  numbers = numbers.dataset.number;
+  console.log(numbers);
+});
