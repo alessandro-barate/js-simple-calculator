@@ -1,11 +1,10 @@
 "use strict";
 
-const numbers = document.querySelectorAll(".button");
-//let dataNumber = numbers.dataset.number;
+const numbers = document.querySelectorAll("button");
 
-numbers.addEventListener("click", function () {
-  let dataNumber = numbers.dataset.number;
-  console.log(dataNumber);
-});
-
-let valueDisplayed = document.getElementById("result");
+for (let i = 0; i < numbers.length; i++) {
+  numbers[i].addEventListener("click", function () {
+    let data = numbers[i].dataset.number;
+    console.log(data);
+  });
+}
