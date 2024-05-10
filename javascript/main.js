@@ -1,9 +1,9 @@
 "use strict";
 
-let numbers = document.querySelector(".buttons");
+const numbers = document.querySelector(".buttons");
 //let dataNumber = numbers.dataset.number;
 
 numbers.addEventListener("click", function () {
-  numbers = numbers.dataset.number;
-  console.log(numbers);
+  let dataNumber = numbers.dataset.number;
+  console.log(dataNumber);
 });
