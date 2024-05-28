@@ -46,6 +46,18 @@ btnResult.addEventListener("click", function () {
       result.innerHTML = n1 + n2;
       break;
 
+    case "-":
+      result.innerHTML = n1 - n2;
+      break;
+
+    case "*":
+      result.innerHTML = n1 * n2;
+      break;
+
+    case "/":
+      result.innerHTML = n1 / n2;
+      break;
+
     default:
       break;
   }
